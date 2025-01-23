@@ -1,6 +1,7 @@
 package com.modelClass;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Player {
     private String name;
@@ -20,13 +21,13 @@ public class Player {
     }
 }
 
-public class Team{
+ class Team{
     private String teamName;
     private List<Player> players;
 
     // Constructor
     public Team(String teamName){
         this.teamName = teamName;
-        this.Players = new ArrayList<>();
+        this.players = new ArrayList<>();
     }
 }
