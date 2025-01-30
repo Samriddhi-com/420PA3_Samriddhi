@@ -1,6 +1,9 @@
 package com.modelClass;
 
- class Student {
+import java.util.ArrayList;
+import java.util.List;
+
+class Student {
      private String name;
      private int age;
 

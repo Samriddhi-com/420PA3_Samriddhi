@@ -7,7 +7,6 @@ public class BankAccount {
     // Constructor
     public BankAccount(String accountHolderName, double initialBalance)
     {
-        this.accountHolderName = accountHolderName;
         this.balance = initialBalance;
     }
 
@@ -20,14 +19,14 @@ public class BankAccount {
             System.out.println("Deposit amount must be positive.");
         }
     }
-    public boolean witdraw(double amount){
+    public boolean withdraw(double amount){
         if (amount >0 && amount <= balance){
             balance-=amount;
             System.out.println("Withdraw: $" + amount);
             return true;
         }
         else{
-            System.out.println("Withdrawl failed");
+            System.out.println("Withdrawal failed");
             return false;
         }
     }

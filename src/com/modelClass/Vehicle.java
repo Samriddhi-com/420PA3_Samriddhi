@@ -18,7 +18,7 @@ public class Vehicle {
 }
 
 class CarV extends Vehicle {
-    private int numberOfDoors;
+    private  int numberOfDoors;
 
     // Constructor
     public CarV(String make, String model, int year, int numberOfDoors) {
@@ -33,7 +33,7 @@ class CarV extends Vehicle {
     }
 }
 class Truck extends Vehicle {
-    private double payloadCapacity;
+    private final double payloadCapacity;
 
     // Constructor
     public Truck(String make, String model, int year, double payloadCapacity) {
